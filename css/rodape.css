@@ -1,0 +1,3 @@
+.rodape{background:var(--cor-neutra-900);color:var(--cor-neutra-100);padding:var(--esp-4) var(--esp-3);margin-top:var(--esp-6);font-size:var(--fs-pequeno)}
+.rodape a{color:var(--cor-primaria-suave)}
+.rodape address{font-style:normal}

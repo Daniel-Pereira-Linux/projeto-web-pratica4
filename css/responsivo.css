@@ -1,0 +1,5 @@
+@media (min-width:480px){.conteudo,.container{padding-inline:var(--esp-4)}.grade>.cartao{grid-column:span 6}}
+@media (min-width:768px){.grupo-meio{grid-column:span 6!important}.formulario fieldset.meio{grid-column:span 6}}
+@media (min-width:1024px){.grade>.cartao{grid-column:span 4}.destaque picture{grid-column:1 / span 7}.destaque-texto{grid-column:8 / span 5}}
+@media (min-width:1280px){.com-lateral .lista-animais{grid-column:span 9}.com-lateral .aviso{grid-column:span 3}.sobre-grid>*{grid-column:span 4}.formulario{grid-column:2 / span 10}}
+@media (min-width:1536px){:root{--largura-conteudo:90rem}.destaque-texto h1{font-size:calc(var(--fs-destaque)*1.25)}.grid-12{gap:var(--esp-5) var(--esp-4)}}

@@ -1,0 +1,13 @@
+:root{
+  --cor-primaria:#B5451B;--cor-primaria-escura:#8A3312;--cor-primaria-clara:#FDE8DC;--cor-primaria-suave:#FFC9A8;
+  --cor-secundaria:#2E6B3A;--cor-secundaria-escura:#1F4D29;--cor-secundaria-clara:#E3F1E5;
+  --cor-destaque:#F2B33D;
+  --cor-neutra-900:#2B2522;--cor-neutra-700:#5E524B;--cor-neutra-500:#8C7B70;--cor-neutra-300:#EAD9CC;--cor-neutra-100:#FFF8F2;--cor-neutra-0:#FFFFFF;
+  --cor-erro:#B3261E;--cor-erro-fundo:#FDECEA;
+  --fs-pequeno:.8rem;--fs-base:1rem;--fs-h3:1.25rem;--fs-h2:1.563rem;--fs-h1:1.953rem;--fs-destaque:2.441rem;
+  --fonte-base:system-ui,sans-serif;--fonte-titulo:Georgia,serif;
+  --esp-1:.25rem;--esp-2:.5rem;--esp-3:1rem;--esp-4:1.5rem;--esp-5:2rem;--esp-6:3rem;--esp-7:4rem;
+  --raio-pequeno:.25rem;--raio-medio:.5rem;--raio-grande:1rem;
+  --sombra-cartao:0 2px 8px rgba(43,37,34,.12);
+  --largura-conteudo:64rem;--largura-texto:42rem;
+}
