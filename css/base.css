@@ -10,3 +10,14 @@ a{color:var(--cor-primaria)}a:hover{color:var(--cor-primaria-escura)}
 .pular-conteudo{position:absolute;left:-999px;top:0;background:var(--cor-neutra-900);color:#fff;padding:var(--esp-2) var(--esp-3);z-index:100}
 .pular-conteudo:focus{left:var(--esp-2);top:var(--esp-2)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* Acessibilidade: alto contraste e modo de cores forcado */
+@media (prefers-contrast:more){
+  :root{--cor-neutra-500:#2B2522;--cor-primaria:#8A3312;--cor-neutra-700:#2B2522}
+  a{text-decoration:underline}
+  .botao,input,select,textarea,.cartao{border:2px solid var(--cor-neutra-900)}
+}
+@media (forced-colors:active){
+  .botao,.badge{border:1px solid ButtonText}
+  :focus-visible{outline:3px solid Highlight}
+}
